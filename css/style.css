@@ -5,9 +5,27 @@
 .logo-web {
   color: #000000;
 }
-.link {
+
+.logo-web:hover,
+.logo-web:focus {
+  color: #2196f3;
 }
 
 .list {
   list-style: none;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-auth .auth-link {
+  color: #212121;
+}
+.site-auth .auth-link:hover,
+.site-auth .auth-link:focus {
+  color: #2196f3;
 }
