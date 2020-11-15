@@ -29,3 +29,10 @@
 .site-auth .auth-link:focus {
   color: #2196f3;
 }
+
+.section-h3 {
+  color: #212121;
+}
+.section-text {
+  color: #757575;
+}
