@@ -1,6 +1,13 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #2196f3;
+  --text-color: #757575;
+  --hero-color: #ffffff;
+}
+
 /* Логотип*/
 .logo {
-  color: #2196f3;
+  color: var(--title-text-color);
 }
 .logo-web {
   color: #000000;
@@ -8,31 +15,52 @@
 
 .logo-web:hover,
 .logo-web:focus {
-  color: #2196f3;
+  color: var(--title-text-color);
 }
 
 .list {
   list-style: none;
 }
 
+/*site-nav*/
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--title-text-color);
 }
 .site-auth .auth-link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .site-auth .auth-link:hover,
 .site-auth .auth-link:focus {
-  color: #2196f3;
+  colorvar: var(--title-text-color);
 }
 
+/*Общее оформление текста*/
 .section-h3 {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .section-text {
-  color: #757575;
+  color: var(--text-color);
+}
+
+/*Hero*/
+.hero {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+
+.hero-title {
+  color: var(--hero-color);
+}
+
+/*Button*/
+.button {
+  color: var(--hero-color);
+  background-color: var(--title-text-color);
 }
