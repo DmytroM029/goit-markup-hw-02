@@ -30,6 +30,11 @@
 .site-nav .link:focus {
   color: var(--title-text-color);
 }
+
+.site-nav .link.current {
+  color: var(--title-text-color);
+}
+
 .site-auth .auth-link {
   color: var(--primary-text-color);
 }
@@ -53,10 +58,6 @@
 
 .hero-title {
   color: var(--hero-color);
-  bottom-top: 200px;
-  margin-bottom: 280px;
-  margin-left: 452px;
-  margin-right: 452px;
 }
 
 /*Button*/
