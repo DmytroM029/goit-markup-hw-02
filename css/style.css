@@ -69,3 +69,15 @@
 /*portfolio*/
 .section-h2 {
   color: var(--primary-text-color);
+}
+
+.port-button {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+
+.port-button:hover,
+.port-button:focus {
+  color: var(--hero-color);
+  background-color: var(--title-text-color);
+}
