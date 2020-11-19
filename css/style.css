@@ -5,20 +5,6 @@
   --hero-color: #ffffff;
 }
 
-/* Логотип*/
-.logo {
-  color: var(--title-text-color);
-  font-family: Raleway, cursive;
-}
-.logo-web {
-  color: #000000;
-}
-
-.logo-web:hover,
-.logo-web:focus {
-  color: var(--title-text-color);
-}
-
 .list {
   list-style: none;
 }
@@ -27,9 +13,41 @@
   font-family: Roboto, sans-serif;
 }
 
+/* Логотип*/
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: #000000;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.logo-web:hover,
+.logo-web:focus {
+  color: var(--title-text-color);
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--title-text-color);
+}
+
 /*site-nav*/
 .site-nav .link {
-  color: var(--primary-text-color);
+  color: var(--primary-text-color)
+  font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -69,6 +87,7 @@
 .button {
   color: var(--hero-color);
   background-color: var(--title-text-color);
+  font-family: inherit;
 }
 
 /*portfolio*/
@@ -85,4 +104,16 @@
 .port-button:focus {
   color: var(--hero-color);
   background-color: var(--title-text-color);
+  font-family: inherit;
+}
+
+/*Footer*/
+.footer {
+  background-color: #2f303a;
+}
+.footer-maps {
+  color: var(--hero-color);
+}
+.footer-link {
+  color: var(--text-color);
 }
