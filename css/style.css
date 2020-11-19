@@ -10,7 +10,8 @@
 }
 
 .body {
-  font-family: Roboto, sans-serif;
+background-color: var(--hero-color);
+font-family: Roboto, sans-serif;
 }
 
 /* Логотип*/
@@ -81,6 +82,9 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
+.background-team{
+    background-color: #F5F4FA;
+}
 /*Hero*/
 .hero {
   background-color: #2f303a;
