@@ -26,13 +26,13 @@
   color: #000000;
 }
 
-.logo-footer {
-  color: #ffffff;
-}
-
 .logo-web:hover,
 .logo-web:focus {
   color: var(--title-text-color);
+}
+
+.logo-footer {
+  color: #ffffff;
 }
 
 .logo-footer:hover,
@@ -46,20 +46,25 @@
   font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--title-text-color);
+color: var(--title-text-color);
 }
 
 .site-nav .link.current {
-  color: var(--title-text-color);
+color: var(--title-text-color);
 }
 
 .site-auth .auth-link {
-  color: var(--primary-text-color);
+color: var(--text-color);
+font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 .site-auth .auth-link:hover,
 .site-auth .auth-link:focus {
@@ -67,11 +72,13 @@ letter-spacing: 0.02em;
 }
 
 /*Общее оформление текста*/
-.section-h3 {
-  color: var(--primary-text-color);
-}
-.section-text {
-  color: var(--text-color);
+.section-title{
+font-family: Roboto;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 /*Hero*/
@@ -80,24 +87,108 @@ letter-spacing: 0.02em;
 }
 
 .hero-title {
-  color: var(--hero-color);
+color: var(--hero-color);
+font-family: Roboto;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 /*Button*/
 .button {
-  color: var(--hero-color);
-  background-color: var(--title-text-color);
-  font-family: inherit;
+color: var(--hero-color);
+background-color: var(--title-text-color);
+font-family: inherit;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
 }
+
+/*Наши преимуества(advantages)*/
+.title-hide
+{color: var(--hero-color);}
+
+.advantages-title { 
+color: var(--primary-text-color);
+font-family: Roboto;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;}
+
+.advantages-text {
+color: var(--text-color);
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+/*Team*/
+.name {
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.position{
+color: var(--text-color);
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+/*Footer*/
+.footer {
+  background-color: #2f303a;
+}
+.footer-maps {
+color: var(--hero-color);
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+.footer-link {
+color: var(--text-color);
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+
 
 /*portfolio*/
-.section-h2 {
-  color: var(--primary-text-color);
-}
+.filter-name {
+    color: var(--primary-text-color);}
 
 .port-button {
-  color: var(--primary-text-color);
-  background-color: #f5f4fa;
+color: var(--primary-text-color);
+background-color: #f5f4fa;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.43;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 .port-button:hover,
@@ -107,13 +198,18 @@ letter-spacing: 0.02em;
   font-family: inherit;
 }
 
-/*Footer*/
-.footer {
-  background-color: #2f303a;
+.product-name {
+font-family: Roboto;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 }
-.footer-maps {
-  color: var(--hero-color);
-}
-.footer-link {
-  color: var(--text-color);
+
+.filter-name {
+color: var(--text-color);
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
 }
