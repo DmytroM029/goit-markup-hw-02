@@ -171,13 +171,15 @@ letter-spacing: 0.03em;
 }
 .footer-maps {
 color: var(--hero-color);
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
 .footer-link {
-color:var(--footer-link-color);
+color: var(--footer-link-color);
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
