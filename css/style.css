@@ -8,6 +8,7 @@
 /* Логотип*/
 .logo {
   color: var(--title-text-color);
+  font-family: Raleway, cursive;
 }
 .logo-web {
   color: #000000;
@@ -20,6 +21,10 @@
 
 .list {
   list-style: none;
+}
+
+.body {
+  font-family: Roboto, sans-serif;
 }
 
 /*site-nav*/
