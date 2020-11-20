@@ -204,8 +204,8 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
-.port-button:hover,
-.port-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--hero-color);
   background-color: var(--title-text-color);
   font-family: inherit;
