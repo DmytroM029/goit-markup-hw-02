@@ -6,7 +6,6 @@
   --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
-
 /*приминяем ко всем спискам*/
 ul {
   list-style: none;
@@ -18,10 +17,9 @@ a {
 }
 
 body {
-background-color: var(--hero-color);
-font-family: Roboto, sans-serif;
+  background-color: var(--hero-color);
+  font-family: Roboto, sans-serif;
 }
-
 
 /* Логотип*/
 .logo {
@@ -52,28 +50,28 @@ font-family: Roboto, sans-serif;
 
 /*site-nav*/
 .site-nav .link {
-color: var(--primary-text-color)
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 .site-nav .link.current {
-color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 /*site-auth*/
 .site-auth .auth-link {
-color: var(--text-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-auth .auth-link:hover,
 .site-auth .auth-link:focus {
@@ -81,16 +79,17 @@ letter-spacing: 0.02em;
 }
 
 /*Общее оформление текста*/
-.products-title, .team-section{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
+.products-title,
+.team-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.teammate{
-    background-color: #F5F4FA;
+.teammate {
+  background-color: #f5f4fa;
 }
 
 /*Hero*/
@@ -99,73 +98,74 @@ letter-spacing: 0.03em;
 }
 
 .hero-title {
-color: var(--hero-color);
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+  color: var(--hero-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /*Button*/
 .button {
-color: var(--hero-color);
-background-color: var(--title-text-color);
-font-family: inherit;
-font-family: Roboto;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+  color: var(--hero-color);
+  background-color: var(--title-text-color);
+  font-family: inherit;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /*Наши преимуества(advantages)*/
-.visually-hidden
-{position: absolute;
- width: 1px;
- height: 1px;
- margin: -1px;
- border: 0;
- padding: 0;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
   white-space: nowrap;
- clip-path: inset(100%);
- clip: rect(0 0 0 0);
- overflow: hidden;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.advantages-title { 
-color: var(--primary-text-color);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;}
+.advantages-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 
 .advantages-content {
-color: var(--text-color);
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /*Team*/
 .teammate-name {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.teammate-position{
-color: var(--text-color);
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
+.teammate-position {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*Footer*/
@@ -173,35 +173,34 @@ letter-spacing: 0.03em;
   background-color: #2f303a;
 }
 .footer-maps {
-color: var(--hero-color);
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  color: var(--hero-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-link {
-color: var(--footer-link-color);
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  color: var(--footer-link-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-
-
 
 /*portfolio*/
 .filter-product {
-    color: var(--primary-text-color);}
+  color: var(--primary-text-color);
+}
 
 .filter-button {
-color: var(--primary-text-color);
-background-color: #f5f4fa;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.43;
-text-align: center;
-letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.43;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filter-button:hover,
@@ -212,16 +211,16 @@ letter-spacing: 0.03em;
 }
 
 .filter-experience {
-color: var(--primary-text-color);
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .filter-product {
-color: var(--text-color);
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
