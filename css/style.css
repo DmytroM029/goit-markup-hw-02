@@ -6,6 +6,15 @@
   --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 /*приминяем ко всем спискам*/
 ul {
   list-style: none;
@@ -79,8 +88,7 @@ body {
 }
 
 /*Общее оформление текста*/
-.products-title,
-.team-section {
+.section {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -93,7 +101,7 @@ body {
 }
 
 /*Hero*/
-.hero {
+.hero-section {
   background-color: #2f303a;
 }
 
@@ -123,6 +131,15 @@ body {
 }
 
 /*Наши преимуества(advantages)*/
+/*.advantages-title {
+  
+}*/
+
+.advantages-list {
+  display: inline-block;
+  text-align: center;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -152,7 +169,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+/*Product*/
+
 /*Team*/
+.team-list,
+.product-list {
+  display: inline-block;
+}
 .teammate-name {
   font-weight: 500;
   font-size: 16px;
@@ -189,6 +212,10 @@ body {
 }
 
 /*portfolio*/
+
+.filter-list {
+  display: inline-block;
+}
 .filter-product {
   color: var(--primary-text-color);
 }
